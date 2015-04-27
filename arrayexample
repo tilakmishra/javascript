@@ -23,3 +23,14 @@ hasAlphabet(a); // false
 hasAlphabet(b); // true
 hasAlphabet(c); // false
 hasAlphabet(d); // true
+
+//The below program will ask you to enter name,age and gender and then depending on the gender value it will print below
+
+function getdetails(name,age,gender)
+{
+if (gender=='male'){
+console.log('His name is'+ name + ', and he is '+ age + ' years old');
+} else {console.log('Her name is'+ name + ', and she is '+ age + ' years old');}
+}
+
+
